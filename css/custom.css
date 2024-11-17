@@ -1,8 +1,5 @@
-.navbar .navbar-brand {
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 10rem!important;
-}
-
-.jumbo {
-    background-image: url(/img/jumbo-bg.jpg)!important;
+nav .navbar-scrolled {
+    color: brown !important;
+    background-color: #7e9fac !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }

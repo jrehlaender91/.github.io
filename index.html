@@ -1,204 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Full Stack Conf</title>
+    <title>Jorge Rehlaender - Web Developer</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" src="css/custom.css">
+    <link rel="stylesheet" href="custom.css">
 </head>
   <body id="home" data-spy="scroll" data-target=".navbar">
 
          <!-- navbar --> 
-         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand order-1" href="https://www.teamtreehouse.com">Presented by Treehouse</a>
+         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container px-5">
+                <a class="navbar-brand " href="https://www.teamtreehouse.com">
+                    <svg fill="black" class="mt-2 logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1.0" viewBox="0 0 48 48"><defs><clipPath id="a">
+                        <path d="M.488 0h47.02v47.02H.488Zm0 0"/></clipPath></defs>
+                        <path d="M4.557 6.324h12.14c3.258 0 5.914.87 7.969 2.61 2.062 1.741 3.094 4.23 3.094 7.468 0 2.492-.625 4.578-1.875 6.265-1.25 1.688-2.946 2.875-5.078 3.563l11.687 14.031H22.65L12.29 26.855v13.406H4.558ZM12.29 21.37h.906c.707 0 1.305-.008 1.797-.032a9.476 9.476 0 0 0 1.688-.28c.632-.165 1.144-.4 1.53-.704.384-.3.712-.738.985-1.313.281-.582.422-1.285.422-2.109 0-.82-.14-1.52-.422-2.094-.273-.57-.601-1.007-.984-1.312-.387-.3-.899-.535-1.531-.703a8.245 8.245 0 0 0-1.688-.282 29.007 29.007 0 0 0-1.797-.046h-.906ZM38.702 31.464c1.32 0 2.442.461 3.36 1.375.914.918 1.375 2.032 1.375 3.344 0 1.293-.461 2.399-1.375 3.313-.918.914-2.04 1.375-3.36 1.375-1.293 0-2.398-.461-3.312-1.375-.918-.914-1.375-2.02-1.375-3.313 0-1.312.457-2.426 1.375-3.344.914-.914 2.02-1.375 3.312-1.375Zm0 0"/>
+                    </svg>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#home">Home</a>
-                    <a class="nav-item nav-link" href="#about">About</a>
-                    <a class="nav-item nav-link" href="#speakers">Speakers</a>
-                    <a class="nav-item nav-link" href="#schedule">Schedule</a>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#home">Home</a>
+                        <a class="nav-item nav-link" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#speakers">Speakers</a>
+                        <a class="nav-item nav-link" href="#schedule">Schedule</a>
+                    </div>
                 </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="https://www.instagram.com/rehlaender_/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/jrehlaender/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                        </a>
+                        <a class="nav-link" href="https://github.com/jrehlaender91" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>  
         </nav> 
         <!-- /navbar -->
         
         <!-- jumbotron -->
-        <div class="jumbo p-5 rounded-lg bg-info text-white">
+        <div class="p-5 rounded-lg text-white" style="background-color:lightblue; background-image: url(img/1.jpg); background-size: cover; background-position-y: center;  background-blend-mode:saturation;">
             <div class="container text-center pt-5">
-            <h1 class="display-2">Full Stack Conf</h1>
-            <p class="lead">A One-day Conference About All Things JavaScript!</p>
-            <div class="btn-group mt-4" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
-                <a href="#speakers" class="btn btn-light btn-lg">See Speakers</a>
-              </div>
+                <h1 class="display-3 mb-0" style="font-weight: bold; color: #000;">JORGE REHLAENDER</h1>
+                <p class="lead mb-4" style="color: #50707e;">Web Developer</p>
+                <p class="lead px-5 mx-5 my-5" style="color: #50707e; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="btn-group mt-0" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#register">Reach Out!</button>
+                </div>
             </div>
         </div> <!-- jumbotron -->
   
         <div class="container pt-4">
-            
-        <!-- about -->
-        <div class="row mt-5" id="about">
-            <div class="col-md order-lg-2">
-                <h3 class="mb-4">About Full Stack Conf</h3>
-                <img src="img/pdx.jpg" alt="Portland" class="mb-4 img-fluid rounded d-none d-sm-block">
-                    <p>The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!</p>
-                    <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
-            </div>
-            <div class="col-md order-lg-1">
-                <h3 class="mb-4">Expert Speakers</h3>
-                <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
-                <p>Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
-                <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
-            </div>
-            <div class="col-md order-lg-3">
-                <h3 class="mb-4">What You'll Learn</h3>
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action"><strong>MongoDB</strong>: NoSQL database</a>
-                    <a href="#" class="list-group-item list-group-item-action"><strong>Express</strong>: Framework for Node</a>
-                    <a href="#" class="list-group-item list-group-item-action"><strong>React</strong>: JavaScript library</a>
-                    <a href="#" class="list-group-item list-group-item-action"><strong>Node.js</strong>: JavaScript environment</a>
-                    <a href="#" class="list-group-item list-group-item-action"><strong>ES2015</strong>: Latest version of JavaScript</a>
-                    <a href="#" class="list-group-item list-group-item-action"><strong>Babel</strong>: JavaScript compiler</a>
-                </div>  
-            </div>        
-        </div><!-- /about -->
-
+            <hr class="my-4">
         <!-- speakers -->
-        <h1 class="text-center display-4 my-5 text-muted" id="speakers">Speakers</h1>
+        <div class="d-flex mb-3">
+            <h5 class="text-start my-3 d-inline-block" id="speakers">Portfolio</h5>
+            <div class="d-inline-block align-self-center ml-auto">
+                <a href="#html">
+                    <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                </a>
+                <a href="#css">
+                    <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                </a>
+                <a href="#javascript">
+                    <span class="badge badge-pill p-2 badge-info">Javascript</span>
+                </a>
+                <a href="#javascript">
+                    <span class="badge badge-pill p-2 badge-success">APIs</span>
+                </a>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
-                    <img src="img/vivianne.png" class="card-img-top" alt="...">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
+                    <img src="img/vivianne.png" class="card-img-top"  alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Vivianne McVue</h4>
-                        <p class="card-text">Vivianne is a web developer and teacher who is passionate about building scalable, data-driven web apps, especially ones that address old problems with new tech!</p>
+                        <h5 class="card-title mb-1">Game Show App</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">Vivianne is a web developer and teacher who is passionate about building scalable, data-driven web apps.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                            <span class="badge badge-pill p-2 badge-info">Javascript</span>
+                        </div>
                     </div>
                   </div>
             </div>
           
             <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <img src="img/nodestradamus.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">NodeStradamus</h4>
-                        <p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+                        <h5 class="card-title mb-1">Full Stack Conf</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                            <span class="badge badge-pill p-2 badge-info">Javascript</span>
+                        </div>
                     </div>
                 </div>
             </div>
           
             <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <img src="img/robbie.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Robbie Redux</h4>
-                        <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.</p>
+                        <h5 class="card-title mb-1">Employee Directory</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">Robbie is a JavaScript developer working on large-scale applications barriers to learning code.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                            <span class="badge badge-pill p-2 badge-info">Javascript</span>
+                            <span class="badge badge-pill p-2 badge-success">APIs</span>
+                        </div>
                     </div>
                 </div>
             </div>
           
             <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <img src="img/ecma.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Ecma Scriptnstuff</h4>
-                        <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
+                        <h5 class="card-title mb-1">WebApp Dashboard</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to JavaScript.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                            <span class="badge badge-pill p-2 badge-info">Javascript</span>
+                        </div>
                     </div>
                 </div>
             </div>
           
             <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <img src="img/jay.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Jay Query</h4>
-                        <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>                            </div>
+                        <h5 class="card-title mb-1">Photo Gallery</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp;, and web development teacher.</p>                            
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                        </div>
+                    </div>
                 </div>
             </div>
           
             <div class="col-md-6 col-lg-4">
-                <div class="card mb-3">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <img src="img/json.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Json Babel</h4>
-                        <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+                        <h5 class="card-title mb-1">Registration Form</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">All of his professional life, Json has worked with computers online; he likes using the tools for the job.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-secondary">CSS</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div><!-- /speakers -->
           
-
-        <!-- schedule -->
-        <h1 class="text-center display-4 my-5 text-muted" id="schedule">Schedule</h1> 
-        <ul class="list-group">
-            <li class="media py-3 px-4 border rounded border-bottom-0">
-                <img class="mr-3" width="64px" src="img/avatar-nodestradamus.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">Keynote: Internet of Things</h5>
-                    <p class="mb-1">NodeStradamus</p>
-                </div>
-                <span class="badge badge-pill badge-info p-2 align-self-center">9:00am</span>
-            </li>
-            <li class="media py-3 px-4 border rounded border-bottom-0">
-                <img class="mr-3" width="64px" src="img/avatar-vivianne.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">React Basics</h5>
-                    <p class="mb-1">Vivianne McVue</p>
-                </div>
-                <span class="badge badge-pill badge-info p-2 align-self-center">10:00am</span>
-            </li>
-            <li class="media py-3 px-4 border rounded border-bottom-0">
-                <img class="mr-3" width="64px" src="img/avatar-jay.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">Hey, Mongo!</h5>
-                    <p class="mb-1">Jay Query</p>
-                </div>
-                <span class="badge badge-pill badge-info p-2 align-self-center">11:00am</span>
-            </li>
-            <li class="media py-3 px-4 border rounded text-white bg-info border-bottom-0">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">Lunch!</h5>
-                    <p class="mb-1">Free pizza for everyone!</p>
-                </div>
-                <span class="badge badge-pill badge-light p-2 align-self-center">12:00am</span>
-            </li>
-            <li class="media py-3 px-4 border rounded border-bottom-0">
-                <img class="mr-3" width="64px" src="img/avatar-ecma.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">Introducing ES2015</h5>
-                    <p class="mb-1">Ecma Scriptnstuff</p>
-                </div>
-                <span class="badge badge-pill badge-info p-2 align-self-center">1:00pm</span>
-            </li>
-            <li class="media py-3 px-4 border rounded border-bottom-0">
-                <img class="mr-3" width="64px" src="img/avatar-robbie.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">Getting Started With Redux</h5>
-                    <p class="mb-1">Robbie Redux</p>
-                </div>
-                <span class="badge badge-pill badge-info p-2 align-self-center">2:00pm</span>
-            </li>
-            <li class="media py-3 px-4 border rounded">
-                <img class="mr-3" width="64px" src="img/avatar-json.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">What's Babel?</h5>
-                    <p class="mb-1">Json Babel</p>
-                </div>
-                <span class="badge badge-pill badge-info p-2 align-self-center">3:00pm</span>
-            </li>       
-        </ul><!-- /schedule -->
-          
-
         <!-- callout -->
-        <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+        <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" id="miss" data-toggle="modal" data-target="#register">Contact Me!</button>
 
         <!-- signup form -->
         <hr>
@@ -246,7 +227,7 @@
               </ul>
             </div>
             <div class="col-md text-md-right">
-              <small>&copy; 2025 Full Stack Conf &amp; Treehouse</small>
+              <small>&copy; 2025 Jorge Rehlaender</small>
         </div>
         
         </div><!-- /footer -->
@@ -458,5 +439,6 @@
           }, false);
         })();
     </script>
+    <script src="js/index.js"></script>
 </body>
 </html>
