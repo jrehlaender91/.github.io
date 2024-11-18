@@ -3,3 +3,9 @@ nav .navbar-scrolled {
     background-color: #7e9fac !important;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
+
+@media only screen and (min-width: 600px) {
+    .display-1 {
+        font-size: 10px;
+    }
+  }
