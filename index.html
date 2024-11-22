@@ -8,16 +8,15 @@
    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
   <body id="home" data-spy="scroll" data-target=".navbar">
 
          <!-- navbar --> 
          <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container px-5">
-                <a class="navbar-brand " href="https://www.teamtreehouse.com">
-                    <svg fill="black" class="mt-2 logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1.0" viewBox="0 0 48 48"><defs><clipPath id="a">
+                <a class="navbar-brand " href="index.html">
+                    <svg fill="black" class="mt-2 logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48"><defs><clipPath id="a">
                         <path d="M.488 0h47.02v47.02H.488Zm0 0"/></clipPath></defs>
                         <path d="M4.557 6.324h12.14c3.258 0 5.914.87 7.969 2.61 2.062 1.741 3.094 4.23 3.094 7.468 0 2.492-.625 4.578-1.875 6.265-1.25 1.688-2.946 2.875-5.078 3.563l11.687 14.031H22.65L12.29 26.855v13.406H4.558ZM12.29 21.37h.906c.707 0 1.305-.008 1.797-.032a9.476 9.476 0 0 0 1.688-.28c.632-.165 1.144-.4 1.53-.704.384-.3.712-.738.985-1.313.281-.582.422-1.285.422-2.109 0-.82-.14-1.52-.422-2.094-.273-.57-.601-1.007-.984-1.312-.387-.3-.899-.535-1.531-.703a8.245 8.245 0 0 0-1.688-.282 29.007 29.007 0 0 0-1.797-.046h-.906ZM38.702 31.464c1.32 0 2.442.461 3.36 1.375.914.918 1.375 2.032 1.375 3.344 0 1.293-.461 2.399-1.375 3.313-.918.914-2.04 1.375-3.36 1.375-1.293 0-2.398-.461-3.312-1.375-.918-.914-1.375-2.02-1.375-3.313 0-1.312.457-2.426 1.375-3.344.914-.914 2.02-1.375 3.312-1.375Zm0 0"/>
                     </svg>
@@ -28,11 +27,28 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#home">Home</a>
-                        <a class="nav-item nav-link" href="#about">About</a>
-                        <a class="nav-item nav-link" href="#speakers">Speakers</a>
-                        <a class="nav-item nav-link" href="#schedule">Schedule</a>
+                        <a class="nav-item nav-link" href="#about">About Me</a>
+                        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-item nav-link" data-toggle="modal" data-target="#register" style="cursor: pointer;">Contact Me</a>
+                        <div class="d-flex d-lg-none">
+                            <a class="nav-link mr-3" href="https://www.instagram.com/rehlaender_/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                </svg>
+                            </a>
+                            <a class="nav-link mr-3" href="https://www.linkedin.com/in/jrehlaender/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg>
+                            </a>
+                            <a class="nav-link" href="https://github.com/jrehlaender91" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="navbar-nav ml-auto">
+                    <div class="navbar-nav d-none d-lg-flex ml-auto">
                         <a class="nav-link" href="https://www.instagram.com/rehlaender_/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
                                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
@@ -57,7 +73,9 @@
         <!-- jumbotron -->
         <div class="p-5 rounded-lg text-white" style="background-color:lightblue; background-image: url(img/1.jpg); background-size: cover; background-position-y: center;  background-blend-mode:saturation;">
             <div class="container text-center pt-5">
-                <h1 class="display-2 mb-0" style="font-weight: bold; color: #000;">JORGE REHLAENDER</h1>
+                <h1 class="display-5 mb-0 d-sm-none" style="font-weight: bold; color: #000;">JORGE REHLAENDER</h1>
+                <h1 class="display-4 mb-0 d-lg-none d-none d-md-block" style="font-weight: bold; color: #000;">JORGE REHLAENDER</h1>
+                <h1 class="display-3 mb-0 d-none d-lg-block" style="font-weight: bold; color: #000;">JORGE REHLAENDER</h1>
                 <p class="lead mb-4" style="color: #50707e;">Web Developer</p>
                 <div class="btn-group mt-0" role="group" aria-label="Basic example">
                     <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#register">Reach Out!</button>
@@ -69,26 +87,26 @@
         <div class="container pt-4">
             <div class="row">
                 <div class="col-md col-xl-7 col-sm-12">
-                    <h5 class="text-sm-end text-start my-3 d-inline-block mx-auto" id="speakers">About Me</h5>
-                    <p class="lead" style="color: #50707e; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <h5 class="my-3 d-block text-center text-sm-left" id="about">About Me</h5>
+                    <p class="lead text-center text-sm-left" style="color: #50707e; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div class="col-md col-xl-5 mt-3">
                     <ul class="list-group list-group-flush align-self-center mx-auto">
-                        <li class="list-group-item text-center">
-                            <svg class="align-middle mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <li class="list-group-item text-center text-sm-left">
+                            <svg class="align-middle mr-2 bi bi-geo-alt" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
                                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                             </svg>
                             <span class="align-middle">Monterrey, Mexico</span>
                         </li>
-                        <li class="list-group-item text-center">
-                            <svg class="align-middle mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <li class="list-group-item text-center text-sm-left">
+                            <svg class="align-middle mr-2 bi bi-envelope" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
                             </svg>
                             <span class="align-middle">jrehlaender91@gmail.com</span>
                         </li>
-                        <li class="list-group-item text-center">
-                            <svg class="align-middle mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <li class="list-group-item text-center text-sm-left">
+                            <svg class="align-middle mr-2 bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
                             </svg>
                             <span class="align-middle">+52 81-8021-6420</span>
@@ -102,10 +120,10 @@
         <!-- portfolio -->
         <div class="mb-3">
             <div class="col-xs-12">
-                <h5 class="text-start my-3 " id="speakers">Portfolio</h5>
+                <h5 class="my-3 d-block text-center text-sm-left " id="portfolio">Portfolio</h5>
             </div>
             <div class="d-block align-self-center pills mx-0 text-center col-xs-12">
-                    <span class="mb-2 d-block">Filter: </span>
+                    <span class="mb-2 d-md-inline d-sm-block">Filter: </span>
                         <span class="badge badge-pill p-2 badge-primary "><span class="pillName" style="cursor: pointer;" >HTML</span><span class="vr mx-2" style="border: .5px solid #fff; opacity: .25;"></span>
                             <button type="button" class="close d-flex" data-dismiss="alert" aria-label="Close">
                                 <span class="" style="font-size: 1rem; line-height: .6;">&times;</span>
@@ -129,7 +147,7 @@
                             <span class="" style="font-size: 1rem; line-height: .6;">&times;</span>
                         </button>
                     </span>
-                </a>
+
                 <span class="vr ml-1 mr-2 d-none" style="border: .5px solid #333; opacity: .25;"></span>
                 <a style="cursor: pointer;" id="reset">
                     <span class="badge badge-pill mt-2 p-2 px-3 badge-dark">Reset</span>
@@ -138,6 +156,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/Game-Show-App/" style="text-decoration: none; color: inherit;" target="_blank">
                 <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <div style="background-color: rgb(142, 227, 255);" class="text-center">
                         <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
@@ -155,10 +174,12 @@
                             <span class="badge badge-pill p-2 badge-info">Javascript</span>
                         </div>
                     </div>
-                  </div>
+                </div>
+                </a>
             </div>
           
             <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/Full-Stack-Conf/" style="text-decoration: none; color: inherit;" target="_blank">
                 <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <div style="background-color: rgb(142, 227, 255);" class="text-center">
                         <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
@@ -176,9 +197,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
           
             <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/Use-an-API-to-Create-an-Employee-Directory/" style="text-decoration: none; color: inherit;" target="_blank">
                 <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <div style="background-color: rgb(142, 227, 255);" class="text-center">
                         <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
@@ -197,9 +220,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
           
             <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/WebApp-Dashboard/" style="text-decoration: none; color: inherit;" target="_blank">
                 <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <div style="background-color: rgb(142, 227, 255);" class="text-center">
                         <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
@@ -217,9 +242,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
           
             <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/An-Interactive-Photo-Gallery/" style="text-decoration: none; color: inherit;" target="_blank">
                 <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <div style="background-color: rgb(142, 227, 255);" class="text-center">
                         <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
@@ -237,9 +264,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
           
             <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/An-Online-Registration-Form/" style="text-decoration: none; color: inherit;" target="_blank">
                 <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
                     <div style="background-color: rgb(142, 227, 255);" class="text-center card-svg">
                         <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
@@ -257,7 +286,51 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/Scoreboard/" style="text-decoration: none; color: inherit;" target="_blank">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
+                    <div style="background-color: rgb(142, 227, 255);" class="text-center card-svg">
+                        <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
+                        <svg style="position: absolute; top: calc(25% - 32px);; left: calc(50% - 32px);" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-trophy-fill m-0" viewBox="0 0 16 16">
+                            <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title mb-1">Scoreboard</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">All of his professional life, Json has worked with computers online; he likes using the tools for the job.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-danger">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="https://jrehlaender91.github.io/Password-Generator/" style="text-decoration: none; color: inherit;" target="_blank">
+                <div class="card mb-3" style="box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
+                    <div style="background-color: rgb(142, 227, 255);" class="text-center card-svg">
+                        <img src="img/thumbnail.png" class="card-img-top" style="opacity: 0.25;"  alt="...">
+                        <svg style="position: absolute; top: calc(25% - 32px);; left: calc(50% - 32px);" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-incognito m-0" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="m4.736 1.968-.892 3.269-.014.058C2.113 5.568 1 6.006 1 6.5 1 7.328 4.134 8 8 8s7-.672 7-1.5c0-.494-1.113-.932-2.83-1.205l-.014-.058-.892-3.27c-.146-.533-.698-.849-1.239-.734C9.411 1.363 8.62 1.5 8 1.5s-1.411-.136-2.025-.267c-.541-.115-1.093.2-1.239.735m.015 3.867a.25.25 0 0 1 .274-.224c.9.092 1.91.143 2.975.143a30 30 0 0 0 2.975-.143.25.25 0 0 1 .05.498c-.918.093-1.944.145-3.025.145s-2.107-.052-3.025-.145a.25.25 0 0 1-.224-.274M3.5 10h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5m-1.5.5q.001-.264.085-.5H2a.5.5 0 0 1 0-1h3.5a1.5 1.5 0 0 1 1.488 1.312 3.5 3.5 0 0 1 2.024 0A1.5 1.5 0 0 1 10.5 9H14a.5.5 0 0 1 0 1h-.085q.084.236.085.5v1a2.5 2.5 0 0 1-5 0v-.14l-.21-.07a2.5 2.5 0 0 0-1.58 0l-.21.07v.14a2.5 2.5 0 0 1-5 0zm8.5-.5h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5"/>
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title mb-1">Password Generator</h5>
+                        <p class="card-text mb-2" style="font-size: 14px;">All of his professional life, Json has worked with computers online; he likes using the tools for the job.</p>
+                        <div style="text-align: right;">
+                            <span class="badge badge-pill p-2 badge-primary">HTML</span>
+                            <span class="badge badge-pill p-2 badge-danger">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
         </div><!-- /portfolio -->
           
         <!-- callout -->
@@ -266,10 +339,27 @@
         <hr>
 
         <!-- footer -->
-        <div class="row py-3">
-            <div class="col-md text-md-right">
+        <div class="py-3 d-flex justify-content-between">
+            <div class="flex-column">
+                <a href="https://www.instagram.com/rehlaender_/" target="_blank" class="mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/jrehlaender/" target="_blank" class="mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/jrehlaender91" target="_blank" class="p-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="flex-column">
               <small>&copy; 2025 Jorge Rehlaender</small>
-        </div>
+            </div>
         
         </div><!-- /footer -->
   
@@ -281,19 +371,13 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bg-info text-white">
-                    <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Send me a message!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>               
                 </div>
                 <div class="modal-body">
                     <form class="needs-validation" novalidate>
-                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                            <strong>Hurry!</strong> Early bird registration ends in two days.
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
                         <h5 class="mb-4">Basic info</h5>
                         <div class="form-group mb-3">
                           <label for="name" class="form-label">Name:</label>
@@ -316,137 +400,17 @@
                           </div>
                         </div>
                         <div class="form-group mb-3">
-                            <label for="role" class="form-label">Job Role:</label>
-                            <select class="form-control custom-select" id="role" required>
-                                <option selected value="">Choose..</option>
-                                <option value="full stack js developer">Full Stack JavaScript Developer</option>
-                                <option value="front end developer">Front End Developer</option>
-                                <option value="back end developer">Back End Developer</option>
-                                <option value="designer">Designer</option>
-                                <option value="student">Student</option>                           
-                            </select>
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea name="message" id="message" class="form-control" required></textarea>
                             <div class="valid-feedback">
-                                Looks good!
+                              Looks good!
                             </div>
                             <div class="invalid-feedback">
-                                Please select a role.
+                              Please enter a message.
                             </div>
                         </div>
                         <hr class="my-4">
-                        <h5 class="mb-4">Which Topics Interest You Most?</h5>
-                        <div class="form-check">
-                            <label class=" custom-control custom-checkbox form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-                                <span class="custom-control-description">Javascript Frameworks</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <label class=" custom-control custom-checkbox form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-                                <span class="custom-control-description">Javascript Libraries</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <label class=" custom-control custom-checkbox form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-                                <span class="custom-control-description">Node.js</span>
-                            </label>
-                        </div> 
-                        <div class="form-check">
-                            <label class=" custom-control custom-checkbox form-check-label" for="flexCheckDefault" >
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-                                <span class="custom-control-description">Build Tools</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <label class=" custom-control custom-checkbox form-check-label" for="flexCheckDefault">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-                                <span class="custom-control-description">ES2015</span>
-                            </label>
-                            <div class="invalid-feedback">
-                                Please select at least one.
-                            </div>
-                        </div> 
-                        <hr class="my-4">
-                        <h5 class="mb-4">Payment Info</h5>
-                        <div class="form-row">
-                            <div class="col-lg-6 form-group">
-                                <label for="cc-num">Card Number:</label>
-                                <input class="form-control" id="cc-num" type="text" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Please enter your card number.
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg form-group">
-                                <label for="zip">Zip Code:</label>
-                                <input class="form-control" id="zip" type="text" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Please enter your zipcode.
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg form-group">
-                                <label for="cvv">CVV:</label>
-                                <input class="form-control" id="cvv" type="password" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Please enter your secutiry code.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <label for="exp-month" class="col-lg-12">Expiration Date:</label>
-                            <div class="form-group col-lg-8">
-                                <select class="form-control custom-select" id="exp-month" required>
-                                    <option selected value="">Choose..</option>
-                                    <option value="1">1 - January</option>
-                                    <option value="2">2 - February</option>
-                                    <option value="3">3 - March</option>
-                                    <option value="4">4 - April</option>
-                                    <option value="5">5 - May</option>
-                                    <option value="6">6 - June</option>
-                                    <option value="7">7 - July</option>
-                                    <option value="8">8 - August</option>
-                                    <option value="9">9 - September</option>
-                                    <option value="10">10 - October</option>
-                                    <option value="11">11 - November</option> 
-                                    <option value="12">12 - December</option>
-                                </select>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Please select an expiration month.
-                                </div>
-                            </div>
-                            <div class="form-group col-lg">
-                                <select class="form-control" id="exp-year" required>
-                                    <option selected value="">Choose..</option>
-                                    <option value="2025">2025</option>
-                                    <option value="2026">2026</option>
-                                    <option value="2027">2027</option>
-                                    <option value="2028">2028</option>
-                                    <option value="2029">2029</option>
-                                </select>  
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                                <div class="invalid-feedback">
-                                    Please select an expiration year.
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="my-4">
-                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        <button type="submit" class="btn btn-info btn-lg">Send</button>
 
                     </form>
                 </div>
