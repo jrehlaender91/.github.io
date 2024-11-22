@@ -39,7 +39,7 @@ pills.forEach(function (pill) {
     pill.addEventListener('click', (e) => {
         cardPills.forEach(function (cardPill) {
             if(e.target.innerHTML != cardPill.innerHTML) {
-                cardPill.parentNode.parentNode.parentNode.parentNode.classList.remove('d-none');
+                cardPill.parentNode.parentNode.parentNode.parentNode.parentNode.classList.remove('d-none');
                 e.target.parentNode.style.backgroundColor = ""; 
             } 
         });
@@ -53,14 +53,14 @@ closePills.forEach(function (close) {
 
         cardPills.forEach(function (cardPill) {
             if(e.target.parentNode.previousElementSibling.previousElementSibling.innerHTML === cardPill.innerHTML)
-                cardPill.parentNode.parentNode.parentNode.parentNode.classList.add('d-none');
+                cardPill.parentNode.parentNode.parentNode.parentNode.parentNode.classList.add('d-none');
         });
     });
 });
 
 reset.addEventListener('click', () => {
     cardPills.forEach(function (cardPill) {
-        cardPill.parentNode.parentNode.parentNode.parentNode.classList.remove('d-none');
+        cardPill.parentNode.parentNode.parentNode.parentNode.parentNode.classList.remove('d-none');
         
         closePills.forEach(function (close) {
                 close.parentNode.style.backgroundColor = "";
@@ -73,4 +73,3 @@ toggler.addEventListener('click', () => {
     nav.style.backgroundColor = "rgb(142, 227, 255)";
     nav.style.boxShadow = "0 3px 5px rgba(4, 4, 4, 0.15)";
 });
-
